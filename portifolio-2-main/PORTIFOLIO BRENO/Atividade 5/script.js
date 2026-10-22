@@ -1,0 +1,15 @@
+function maior() {
+    let numero1;
+    let numero2;
+
+    numero1 = Number(prompt("Digite o primeiro numero."));
+    numero2 = Number(prompt("Digite o primeiro numero."));
+
+    if(numero1 > numero2){
+        alert("O numero" + numero1 + " é maior que o numero" + numero2 + ".");
+    }else if(numero1 > numero2){
+        alert("O numero" + numero2 + " é maior que o numero" + numero1 + ".");
+    }else{
+        alert("Os numeros são iguais");
+    }
+}
